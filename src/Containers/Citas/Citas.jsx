@@ -14,7 +14,7 @@ export default class Cita extends React.Component {
     componentDidMount() {
         //this.findCita();
         const user = localStorage.getItem('user')
-        axios.get('https://clinia-dental-citas.herokuapp.com/cita/findCita', user)
+        axios.get('https://back-clinica-dental.herokuapp.com/cita/findCita', user)
             .then(res => {
                 console.log(res)
                 this.setState({

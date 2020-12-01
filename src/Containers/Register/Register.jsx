@@ -18,7 +18,7 @@ const Register = () => {
                 email: form.email.value,
                 password: form.password.value,
             }
-            await axios.post('https://clinia-dental-citas.herokuapp.com/user/createUser', user)
+            await axios.post('https://back-clinica-dental.herokuapp.com/user/createUser', user)
          
             history.push('/login')
         } catch (error) {
