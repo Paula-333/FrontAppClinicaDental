@@ -10,7 +10,6 @@
     justify-content: space-around;
     min-height: 25em;
     align-items: center;
-    font-family: "Homer Simpson UI";
 }
 a{
     all: unset;
@@ -28,7 +27,6 @@ a{
 .Register1 button {
     all: unset;
     padding:.4rem 1rem;
-    border: 1px solid;
     border-radius: 4px;
     cursor: pointer;
     background-color: #898b8a;
