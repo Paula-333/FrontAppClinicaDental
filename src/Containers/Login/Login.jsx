@@ -1,6 +1,6 @@
 import axios from 'axios';
 import React, {useState } from 'react';
-import './Login.scss'
+import './Login.css'
 import { useHistory } from 'react-router-dom';
 
 

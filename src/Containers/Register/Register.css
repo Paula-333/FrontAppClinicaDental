@@ -20,7 +20,7 @@ a{
 .Register1 input {
     all: unset;
     padding: 1em;
-    //width: fit-content;
+    width: fit-content;
     border-radius: 0.3em;
     background-color: #fae0df;
 }
@@ -34,7 +34,7 @@ a{
     background-color: #898b8a;
     color:#f6f5f1;
     font-size: 1.5rem;
-    //text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+    text-shadow: 0 -1px 0 rgba(0,0,0,.5);
     box-shadow: 0 1px 0 rgba(255,255,255,.5) inset,
     0 1px 3px rgba(0,0,0,.2);
     

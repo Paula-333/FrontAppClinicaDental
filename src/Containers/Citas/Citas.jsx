@@ -1,6 +1,6 @@
 import axios from 'axios'
 import React from 'react';
-import './Citas.scss'
+//import './Citas.scss'
 
 
 export default class Cita extends React.Component {

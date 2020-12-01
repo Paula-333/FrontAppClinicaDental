@@ -1,8 +1,8 @@
 import React from 'react'
-import './Register.scss';
+import './Register.css';
 import axios from 'axios'
 import { useHistory } from 'react-router-dom';
-import { notification } from 'antd'
+
 
 const Register = () => {
 
@@ -19,11 +19,11 @@ const Register = () => {
                 password: form.password.value,
             }
             await axios.post('https://clinia-dental-citas.herokuapp.com/user/createUser', user)
-            notification.success({ message: 'Registrado'})
+         
             history.push('/login')
         } catch (error) {
             console.log('ERROR')
-            notification.error({ message: 'Error en registrarse',})
+            
         }
 
     }

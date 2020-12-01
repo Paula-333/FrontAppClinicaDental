@@ -1,8 +1,8 @@
 /* eslint-disable no-useless-constructor */
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import Citas from '../containers/Citas/Citas'
-import './Header.scss'
+import Citas from '../Containers/Citas/Citas'
+import './Header.css'
 const Header = (props) => {
     const logout = ()=>{
         localStorage.removeItem('token')

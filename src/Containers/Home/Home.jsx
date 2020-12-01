@@ -1,6 +1,6 @@
 /* eslint-disable no-useless-constructor */
 import React from "react";
-import './Home.scss'
+import './Home.css'
 
 const Home = (props) =>{
 

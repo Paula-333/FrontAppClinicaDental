@@ -4,6 +4,8 @@
     padding: 0.2em 0.8em;
     font-family: "Homer Simpson UI";
     background-color:  #fae0df;
+
+}
     
  a{
      all: unset;
@@ -165,7 +167,7 @@
       }
       
 
-}
+
 body{
     background-color: #f6f5f1;
 }
